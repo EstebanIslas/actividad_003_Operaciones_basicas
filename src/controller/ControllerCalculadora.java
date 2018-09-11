@@ -16,15 +16,15 @@ public class ControllerCalculadora {
         @Override
         public void actionPerformed(ActionEvent e) {
             if (e.getSource() == viewCalculadora.jb_suma) {
-                jb_suma_action_Performed();
+                jb_suma_action_Performed();//Boton Suma
             }else if (e.getSource() == viewCalculadora.jb_resta){
-                jb_resta_action_Performed();
+                jb_resta_action_Performed();//Boton Resta
             }else if (e.getSource() == viewCalculadora.jb_multiplicacion){
-                jb_multiplicacion_action_Performed();
+                jb_multiplicacion_action_Performed();//Boton Multiplicacion
             }else if(e.getSource() == viewCalculadora.jb_division){
-                jb_division_action_Performed();
+                jb_division_action_Performed();//Boton Division
             }else if (e.getSource() == viewCalculadora.jb_modulo){
-                jb_modulo_action_Performed();
+                jb_modulo_action_Performed();// Boton Modulo
             }
         }
     };
